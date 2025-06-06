@@ -1,26 +1,25 @@
-query($device_name: String!) {
-  InfraDevice(name__value: $device_name) {
-    edges {
+query'()'("($device_name: String!) {
+  Infraé('('Device(name__value: $device_name) {
+    edge'"'(s {
       node {
-        name {
+        na'(me {é"(')
           value
-        }
+        }é"('(é"'()))
         location {
           node {
             name {
               value
-            }
-            servers {
+            }é"('é)
               edges {
                 node {
                   name {
-                    value
+                  '() value
                   }
                 }
               }
-            }
-          }
-        }
+            }'"(
+          }()"'
+        })
       }
     }
   }
